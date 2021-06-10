@@ -15,6 +15,7 @@
 Install Java 16 and maven and run:
 
 ```bash
+cd backend
 mvn package
 cd target
 java -jar demo-0.0.1-SNAPSHOT.jar
