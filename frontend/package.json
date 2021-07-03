@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --proxy-config proxy-conf.json",
+    "start": "npx http-server dist/frontend/",
     "build": "ng build",
-    "postbuild": "npm run deploy",
-    "predeploy": "rimraf ../resources/static/ && mkdirp ../resources/static",
-    "deploy": "copyfiles -f dist/frontend/** ../resources/static",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -25,6 +22,7 @@
     "@angular/router": "^6.0.3",
     "bootstrap": "^4.1.2",
     "core-js": "^2.5.4",
+    "http-server": "^0.12.3",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
