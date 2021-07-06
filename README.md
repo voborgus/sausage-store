@@ -12,7 +12,7 @@
 ## Installation guide
 ### Backend
 
-Install Java 16 and maven and run:
+Install Java 11 and maven and run:
 
 ```bash
 cd backend
