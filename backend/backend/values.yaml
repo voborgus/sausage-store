@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: voborgus/sausage-backend
-  pullPolicy: IfNotPresent
+  repository: backend-pack2
+  pullPolicy: Never
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
