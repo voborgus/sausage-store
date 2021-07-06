@@ -6,7 +6,7 @@
 ## Technologies used
 
 * Frontend – TypeScript, Angular.
-* Backend  – Java 16, Spring Boot, Spring Data.
+* Backend  – Java 11, Spring Boot, Spring Data.
 * Database – H2.
 
 ## Installation guide
